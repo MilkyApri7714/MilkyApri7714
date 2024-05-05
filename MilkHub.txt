@@ -1,0 +1,95 @@
+Password = 'MilkyApri7714'
+Pass = gg.prompt({"Nhập Pass Để Vào Script"},{},{"text"})
+if not Pass then os.exit() end
+if Pass[1] == Password then
+gg.toast('Đúng Là Con Trai Của Ta😏')
+else
+gg.alert('hỏi thg làm script đi🤣🤣') os.exit()
+end
+
+gg.sleep(500) 
+gg.toast(" S🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SC🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SCR🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SCRI🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SCRIP🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SCRIPT 🇻🇳 ")
+gg.sleep(250) 
+gg.toast(" SCRIPT B🇻🇳")
+gg.sleep(250) 
+gg.toast(" SCRIPT BY 🇻🇳") 
+gg.sleep(250) 
+gg.toast(" SCRIPT BY M🇻🇳 ") 
+gg.sleep(250) 
+gg.toast(" SCRIPT BY Mi🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY Mil🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY Milk🇻🇳") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY Milky🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY MilkyA🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY MilkyAp🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY MilkyApr🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY MilkyApri🇻🇳 ") 
+gg.sleep("250") 
+gg.toast(" SCRIPT BY MilkyApri7714 ") 
+gg.sleep("250")
+
+function Main()
+Demo = gg.multiChoice({
+"Demo 1",--Chức Năng 1
+"Demo 2",--Chức Năng 2
+"Thoát"},nil,"Milk Script")
+if Demo == nil then
+else
+if Demo[1] == true then k1() end
+if Demo[2] == true then k2() end
+if Demo[3] == true then Exit() end
+end
+XGCK = -1
+end
+
+function k1()
+local player = game.Players.LocalPlayer
+
+local humanoid = player.Character:WaitForChild("Humanoid")
+
+humanoid.HipWidthScale = 0.02
+
+humanoid.BodyDepthScale =0.02
+
+humanoid.BodyDepthScale = 0.02
+end
+
+function k2()
+local player = game.Players.LocalPlayer
+
+local humanoid = player.Character:WaitForChild("Humanoid")
+
+local newSpeed = 30
+
+humanoid.WalkSpeed = newSpeed
+
+function Exit()
+gg.alert("Chúc bạn ko bị ban 😂😂")
+gg.alert("và ngày càng BANTUMLUM 🌚🌚🌚🌚")
+os.exit()
+end
+while true do
+if gg.isVisible(true) then
+XGCK = 1
+gg.setVisible(false)
+end
+gg.clearResults()
+if XGCK == 1 then Main() end
+end
